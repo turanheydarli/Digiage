@@ -93,7 +93,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5196398231684758424}
   - component: {fileID: 4344246433508229188}
-  - component: {fileID: 2659410349775170267}
   m_Layer: 0
   m_Name: TurnLeft
   m_TagString: Untagged
@@ -135,67 +134,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2949e011347bc3b40b14800aecfcd806, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obstacleDistance: 0
+  obstaclePercentage: 0
+  pieces: []
   computer: {fileID: 0}
   startPoint: {fileID: 0}
   endPoint: {fileID: 0}
---- !u!114 &2659410349775170267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1686724824655836625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 598e68924c9f6324bbfd049d3bae754c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  editorPathColor: {r: 1, g: 1, b: 1, a: 1}
-  alwaysDraw: 0
-  drawThinckness: 0
-  billboardThickness: 1
-  isNewlyCreated: 0
-  multithreaded: 0
-  rebuildOnAwake: 0
-  updateMode: 0
-  triggerGroups: []
-  spline:
-    points: []
-    closed: 0
-    type: 0
-    linearAverageDirection: 1
-    customValueInterpolation:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    customNormalInterpolation:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    sampleRate: 10
-  _rawSamples: []
-  _transformedSamples: []
-  sampleCollection:
-    samples: []
-    optimizedIndices: 
-    sampleMode: 0
-    clipFrom: 0
-    clipTo: 1
-    loopSamples: 0
-  originalSamplePercents: []
-  _sampleCount: 0
-  _is2D: 0
-  hasSamples: 0
-  pointsDirty: 
-  _optimizeAngleThreshold: 0.5
-  _space: 0
-  _sampleMode: 0
-  _subscribers: []
-  nodes: []
+  defaultMaterial: {fileID: 0}
 --- !u!1 &1921233351468047812
 GameObject:
   m_ObjectHideFlags: 0
